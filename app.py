@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+from trade_engine import calculate_fantasy_points, evaluate_trade
 
 st.set_page_config(page_title='Fantasy Basketball Dashboard', layout='wide')
 
